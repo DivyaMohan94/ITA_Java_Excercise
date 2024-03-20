@@ -1,0 +1,14 @@
+## Requirements:
+
+1.	Create a REST service to receive the document and store the document in a database with the below structure:  
+DocumentID  
+DocumentName  
+Document  
+UploadUser  
+UploadDate
+
+2.	Fork this repository and we will review your code from the fork.
+
+## Tech Stack:  
+Springboot   
+MySqlDB
