@@ -20,5 +20,9 @@ public class FileUploadService {
         return fileUploadRepository.save(newFile);
     }
 
+    public FileModel getFile(String id) {
+        return fileUploadRepository.findById(id).get();
+    }
+
 
 }
